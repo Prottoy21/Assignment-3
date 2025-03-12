@@ -390,11 +390,21 @@
       </form>
     </section>  
     <footer class="footer footer-horizontal footer-center bg-black text-white rounded p-10">
-      <nav class="grid grid-flow-col gap-4">
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
+      <div class="w-full max-w-xl flex flex-col items-center text-center">
+        <h3 class="font-bold text-2xl px-3 py-1 rounded-lg flex items-center gap-2">
+          <i class="fa-solid fa-arrow-right bg-(--bg-primary) -rotate-45 p-2 mx-1 rounded-full text-black"></i>Rinterio
+        </h3>
+        <p class="py-4">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood and sleek metal accents.
+        </p>
+      </div>
+      <nav class="grid grid-flow-col gap-4 justify-between">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Portfolio</a>
+        <a class="link link-hover">Blogs</a>
+        <a class="link link-hover">Blogs</a>
+        <a class="link link-hover">Contact us</a>
       </nav>
       <nav>
         <div class="grid grid-flow-col gap-4">
@@ -433,8 +443,12 @@
           </a>
         </div>
       </nav>
+      <a class="btn bg-(--bg-primary) rounded-full flex">
+        Book Consult
+        <i class="fa-solid fa-arrow-right bg-black text-white -rotate-45 p-2 mx-1 rounded-full"></i>
+    </a>
       <aside>
-        <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+        <p>Copyright by Prottoy</p>
       </aside>
     </footer>
 </body>
